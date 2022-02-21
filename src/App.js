@@ -37,6 +37,7 @@ function App() {
     }
     getUsers()
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
   console.log(users)
   return <div className='App'>
